@@ -1,0 +1,26 @@
+#dark > #image {
+  background-image: url(../../../public/img/bg5.png);
+  background-blend-mode: multiply;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+
+#word {
+  font-family: monospace;
+  white-space: pre;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+}
