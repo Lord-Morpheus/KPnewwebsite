@@ -6,6 +6,7 @@ import Projects from "./components/Home/Projects";
 import Footer from "./components/Footer";
 import NavMenu from "./components/NavDrop";
 import { useState } from "react";
+import Team from "./components/team";
 
 function App() {
   const [nav, setNav] = useState(false);
@@ -43,6 +44,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
         </Routes>
+        <Team></Team>
         <Footer />
       </BrowserRouter>
     </>

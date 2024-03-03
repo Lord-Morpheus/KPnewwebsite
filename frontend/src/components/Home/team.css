@@ -1,0 +1,247 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    color: #717f86;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    color: #4B4B4C;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover, a:focus {
+    color: #1E88E5;
+}
+
+#team {
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.designation {
+    font-size: 2.5em;
+}
+
+.team-img {
+    margin: 1px 0px;
+    transition: .5s ease;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 200px;
+}
+.team-box {
+    text-align: center;
+}
+
+.member {
+    float: none;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a.github-profile {
+    color: #4B4B4C;
+}
+
+.bi {
+    font-size: 150%;
+    color: #000000;
+}
+
+.member h3 {
+    font-size: 19px;
+}
+
+#loader {
+    z-index: 3;
+}
+a.link{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 450px) {
+.text-dec {
+    font-size: 20px;
+}
+.text-desc {
+    font-size: 15px;
+}
+.big-text {
+    font-size: 30px;
+}
+.small-text {
+    font-size: 14px;
+}
+.intro-para {
+    font-size: 30px;
+}
+.header-section p {
+    font-size: 14px;
+}
+.heading {
+    margin-bottom: 20px;
+}
+.modal-sm {
+    width: 300px;
+}
+.navbar-default .navbar-brand {
+    margin-left: 10px;
+}
+.banner {
+    background-attachment: scroll;
+}
+.btn.contributors{
+    font-size: 5vw;
+}
+}
+
+@media screen and (max-width: 767px) {
+.navbar-default .navbar-nav>li>a {
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 460px) and (max-width: 767px) {
+.footerWrapper {
+    margin-left: 10%;
+}
+}
+
+@media (max-width: 459px) {
+.footerWrapper {
+    font-size: 14px;
+}
+.footerhead h3 {
+    font-size: 20px;
+}
+#rights {
+    display: block;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+.smallScreenBottom {
+    margin-left: 25%;
+}
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .navbar-default .navbar-nav>li {
+    margin: 0 -5px;
+}
+
+}
+@media (min-width: 978px) and (max-width: 1199px){
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+}
+}
+
+@media (min-width: 810px) and (max-width: 980px){
+.navbar-default .navbar-nav>li>a {
+    font-size: 13px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 812px){
+.navbar-default .navbar-nav>li>a {
+    font-size: 10px;
+}
+}
+
+
+
+@media (min-width: 768px) {
+.row2 {
+    float: right;
+    width: 380px;
+}
+
+.contributor-div {
+    width: 19.5% !important;
+}
+
+.contributor-div .team-img {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+}
+
+@media (max-width: 1199px) {
+#about {
+    height: auto;
+}
+.aboutColumn {
+    padding-bottom: 25px;
+}
+}
+
+@media (max-width: 700px) {
+.box .box-content p {
+    text-align: justify;
+}
+}
+
+@media (max-width: 450px) {
+.tag-title {
+    font-size: 23px;
+}
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+.team-img {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+}
+
+@media (max-width: 599px) and (min-width: 500px) {
+.team-img {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+.team-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+.team-img {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+}
+
+@media (max-width: 768px) {
+.member {
+    margin-bottom: 2em;
+}
+}
+
+@media (min-height: 710px) {
+#about {
+    height: auto;
+    padding-bottom: 120px;
+}
+}
